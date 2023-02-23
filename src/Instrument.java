@@ -23,7 +23,7 @@ public class Instrument {
 
     public String getInstrumentName()
     {
-        return "name";
+        return this.instrumentName;
     }
 
     /**
@@ -41,7 +41,7 @@ public class Instrument {
      */
     public String getInstrumentBrand()
     {
-        return "brand";
+        return this.instrumentBrand;
     }
 
     /**
@@ -61,7 +61,7 @@ public class Instrument {
 
     public int getInstrumentAge()
     {
-        return 3;
+        return this.instrumentAge;
     }
 
     /**
@@ -99,7 +99,7 @@ public class Instrument {
      */
     public String getInstrumentType()
     {
-        return "classic";
+        return this.instrumentType;
     }
 
     /**
@@ -118,7 +118,7 @@ public class Instrument {
 
     public String getInstrumentMat()
     {
-        return "Spruce";
+        return this.instrumentMat;
     }
 
     /**
@@ -138,7 +138,7 @@ public class Instrument {
 
     public int getNumStrings()
     {
-        return 6;
+        return this.numStrings;
     }
 
     /**

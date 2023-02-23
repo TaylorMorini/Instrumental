@@ -22,7 +22,7 @@ public class Vendor {
      */
     public String getVendorName()
     {
-        return "name";
+        return this.vendorName;
 
     }
 
@@ -42,7 +42,7 @@ public class Vendor {
      */
     public String getVendorPassword()
     {
-        return "12345AD";
+        return this.vendorPassword;
 
     }
 
@@ -63,7 +63,7 @@ public class Vendor {
      */
     public String getVendorAddress()
     {
-        return "example";
+        return this.vendorAddress;
 
     }
 
@@ -84,7 +84,7 @@ public class Vendor {
      */
     public double getVendorScore()
     {
-        return vendorScore;
+        return this.vendorScore;
 
     }
 

@@ -23,7 +23,7 @@ public class Customer {
 
     public String getCustomerAddress()
     {
-        return "address example";
+        return this.customerAddress;
 
     }
 
@@ -44,7 +44,7 @@ public class Customer {
      */
     public String getCustomerName()
     {
-        return "name";
+        return this.customerName;
     }
 
     /**
@@ -63,7 +63,7 @@ public class Customer {
      */
     public String getCustomerPassword()
     {
-        return "123456Ad";
+        return this.customerPassword;
 
     }
 
