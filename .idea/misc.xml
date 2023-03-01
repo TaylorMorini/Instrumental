@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavadocGenerationManager">
+<<<<<<< HEAD
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/.." />
+>>>>>>> 3885adf70a9116cd73c3148296935ac1bd835b53
     <option name="OPTION_SCOPE" value="public" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
