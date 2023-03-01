@@ -1,3 +1,5 @@
+package Model;
+
 import java.util.ArrayList;
 
 public class Vendor {
@@ -7,7 +9,7 @@ public class Vendor {
     private double vendorScore;
 
     /**
-     * This is the default constructor for the Vendor class.
+     * This is the default constructor for the Model.Vendor class.
      *
      */
 

@@ -1,3 +1,5 @@
+package Model;
+
 public class Instrument {
     private String instrumentName;
     private String instrumentBrand;
@@ -8,7 +10,7 @@ public class Instrument {
     private int numStrings;
 
     /**
-     * This is the default constructor for the Instrument class.
+     * This is the default constructor for the Model.Instrument class.
      */
 
     public Instrument()

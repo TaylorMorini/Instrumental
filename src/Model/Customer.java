@@ -1,3 +1,8 @@
+package Model;
+
+/**
+ *testity test test test
+ */
 public class Customer {
     private String customerAddress;
 
