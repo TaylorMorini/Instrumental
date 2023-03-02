@@ -1,4 +1,4 @@
 package Model;
 
-public class vendorListing extends Vendor{
+public class vendorListing {
 }
