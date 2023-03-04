@@ -1,30 +1,60 @@
 package testpackage;
 
-import static org.junit.jupiter.api.Assertions.*;
+import Model.Customer;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-class CustomerTest {
 
-    @org.junit.jupiter.api.Test
-    void getCustomerAddress() {
+class CustomerTest extends Customer{
+
+    @Test
+    void getTestCustomerAddress() {
+    Customer test = new Customer();
+    setCustomerAddress("Happy Valley");
+
+    Assertions.assertEquals("Happy Valley", getCustomerAddress());
+
     }
 
-    @org.junit.jupiter.api.Test
-    void setCustomerAddress() {
+    @Test
+    void setTestCustomerAddress() {
+        Customer test = new Customer();
+
+        setCustomerAddress("Happy Valley Set");
+
+        Assertions.assertEquals("Happy Valley Set", getCustomerAddress());
     }
 
-    @org.junit.jupiter.api.Test
-    void getCustomerName() {
+    @Test
+    void getTestCustomerName() {
+        Customer test = new Customer();
+        setCustomerName("Angelina");
+
+        Assertions.assertEquals("Angelina", getCustomerName());
     }
 
-    @org.junit.jupiter.api.Test
-    void setCustomerName() {
+    @Test
+    void setTestCustomerName() {
+        Customer test = new Customer();
+        setCustomerName("Angelina");
+
+        Assertions.assertEquals("Angelina", getCustomerName());
+
     }
 
-    @org.junit.jupiter.api.Test
-    void getCustomerPassword() {
+    @Test
+    void getTestCustomerPassword() {
+        Customer test = new Customer();
+        setCustomerPassword("123456verysecure");
+
+        Assertions.assertEquals("123456verysecure", getCustomerPassword());
     }
 
-    @org.junit.jupiter.api.Test
-    void setCustomerPassword() {
+    @Test
+    void setTestCustomerPassword() {
+        Customer test = new Customer();
+        setCustomerPassword("123456verysecure");
+
+        Assertions.assertEquals("123456verysecure", getCustomerPassword());
     }
 }

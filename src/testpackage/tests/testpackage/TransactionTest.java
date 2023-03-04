@@ -1,28 +1,65 @@
 package testpackage;
 
+import Model.Transaction;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TransactionTest {
+class TransactionTest extends Transaction {
 
     @Test
-    void getCustomerName() {
+    void getTestCustomerName() {
+        Transaction order = new TransactionTest();
+        setCustomerName("Angelina");
+
+        Assertions.assertEquals("Angelina", getCustomerName());
+
     }
 
     @Test
-    void setPrice() {
+    void setTestCustomerName()
+    {
+        Transaction order = new TransactionTest();
+        setCustomerName("Angelina");
+
+        Assertions.assertEquals("Angelina", getCustomerName());
+
     }
 
     @Test
-    void getPrice() {
+    void setTestPrice() {
+        Transaction order = new TransactionTest();
+        setPrice(123.42);
+
+        Assertions.assertEquals(123.42, getPrice());
+
     }
 
     @Test
-    void setAddress() {
+    void getTestPrice() {
+        Transaction order = new TransactionTest();
+        setPrice(123.42);
+
+        Assertions.assertEquals(123.42, getPrice());
+    }
+
+
+
+    @Test
+    void setTestAddress() {
+        Transaction order = new TransactionTest();
+        setAddress("Pittsburgh");
+
+        Assertions.assertEquals("Pittsburgh", getAddress());
     }
 
     @Test
-    void getAddress() {
+    void getTestAddress() {
+        Transaction order = new TransactionTest();
+        setAddress("Pittsburgh");
+
+        Assertions.assertEquals("Pittsburgh", getAddress());
+
     }
 }

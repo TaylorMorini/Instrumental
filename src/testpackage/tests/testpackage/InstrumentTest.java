@@ -1,64 +1,121 @@
 package testpackage;
 
+import Model.Instrument;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-class InstrumentTest {
+class InstrumentTest extends Instrument {
 
     @Test
-    void getInstrumentName() {
+    void getTestInstrumentName() {
+        Instrument inst = new Instrument();
+        setInstrumentName("Epiphone");
+
+        Assertions.assertEquals("Epiphone", getInstrumentName());
     }
 
     @Test
-    void setInstrumentName() {
+    void setTestInstrumentName() {
+        Instrument inst = new Instrument();
+        setInstrumentName("Epiphone");
+
+        Assertions.assertEquals("Epiphone", getInstrumentName());
     }
 
     @Test
-    void getInstrumentBrand() {
+    void getTestInstrumentBrand() {
+        Instrument inst = new Instrument();
+        setInstrumentBrand("Gibson");
+
+        Assertions.assertEquals("Gibson", getInstrumentBrand());
     }
 
     @Test
-    void setInstrumentBrand() {
+    void setTestInstrumentBrand() {
+        Instrument inst = new Instrument();
+        setInstrumentBrand("Gibson");
+
+        Assertions.assertEquals("Gibson", getInstrumentBrand());
     }
 
     @Test
-    void getInstrumentAge() {
+    void getTestInstrumentAge() {
+        Instrument inst = new Instrument();
+        setInstrumentAge(10);
+
+        Assertions.assertEquals(10, getInstrumentAge());
     }
 
     @Test
-    void setInstrumentAge() {
+    void setTestInstrumentAge() {
+        Instrument inst = new Instrument();
+        setInstrumentAge(10);
+
+        Assertions.assertEquals(10, getInstrumentAge());
     }
 
     @Test
-    void getInstrumentCond() {
+    void getTestInstrumentCond() {
+        Instrument inst = new Instrument();
+        setInstrumentCond("Good");
+
+        Assertions.assertEquals("Good",getInstrumentCond());
     }
 
     @Test
-    void setInstrumentCond() {
+    void setTestInstrumentCond() {
+        Instrument inst = new Instrument();
+        setInstrumentCond("Good");
+
+        Assertions.assertEquals("Good",getInstrumentCond());
     }
 
     @Test
-    void getInstrumentType() {
+    void getTestInstrumentType() {
+        Instrument inst = new Instrument();
+        setInstrumentType("Electric");
+
+        Assertions.assertEquals("Electric", getInstrumentType());
     }
 
     @Test
-    void setInstrumentType() {
+    void setTestInstrumentType() {
+        Instrument inst = new Instrument();
+        setInstrumentType("Electric");
+
+        Assertions.assertEquals("Electric", getInstrumentType());
     }
 
     @Test
-    void getInstrumentMat() {
+    void getTestInstrumentMat() {
+        Instrument inst = new Instrument();
+        setInstrumentMat("Rosewood");
+
+        Assertions.assertEquals("Rosewood", getInstrumentMat());
     }
 
     @Test
-    void setInstrumentMat() {
+    void setTestInstrumentMat() {
+        Instrument inst = new Instrument();
+        setInstrumentMat("Rosewood");
+
+        Assertions.assertEquals("Rosewood", getInstrumentMat());
     }
 
     @Test
-    void getNumStrings() {
+    void getTestNumStrings() {
+        Instrument inst = new Instrument();
+        setNumStrings(6);
+
+        Assertions.assertEquals(6,getNumStrings());
     }
 
     @Test
-    void setNumStrings() {
+    void setTestNumStrings() {
+        Instrument inst = new Instrument();
+        setNumStrings(6);
+
+        Assertions.assertEquals(6,getNumStrings());
     }
 }

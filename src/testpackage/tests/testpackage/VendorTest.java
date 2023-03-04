@@ -1,40 +1,72 @@
 package testpackage;
 
+import Model.Vendor;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class VendorTest {
+class VendorTest extends Vendor {
 
     @Test
-    void getVendorName() {
+    void getTestVendorName() {
+        Vendor vendor = new Vendor();
+        setVendorName("Angelina");
+
+        Assertions.assertEquals("Angelina", getVendorName());
     }
 
     @Test
-    void setVendorName() {
+    void setTestVendorName() {
+        Vendor vendor = new Vendor();
+        setVendorName("Angelina");
+
+        Assertions.assertEquals("Angelina", getVendorName());
     }
 
     @Test
-    void getVendorPassword() {
+    void getTestVendorPassword() {
+        Vendor vendor = new Vendor();
+        setVendorPassword("123456verysecure");
+
+        Assertions.assertEquals("123456verysecure", getVendorPassword());
     }
 
     @Test
-    void setVendorPassword() {
+    void setTestVendorPassword() {
+        Vendor vendor = new Vendor();
+        setVendorPassword("123456verysecure");
+
+        Assertions.assertEquals("123456verysecure", getVendorPassword());
     }
 
     @Test
-    void getVendorAddress() {
+    void getTestVendorAddress() {
+        Vendor vendor = new Vendor();
+        setVendorAddress("Pittsburgh");
+
+        Assertions.assertEquals("Pittsburgh", getVendorAddress());
     }
 
     @Test
-    void setVendorAddress() {
+    void setTestVendorAddress() {
+        Vendor vendor = new Vendor();
+        setVendorAddress("Pittsburgh");
+
+        Assertions.assertEquals("Pittsburgh", getVendorAddress());
     }
 
     @Test
-    void getVendorScore() {
+    void getTestVendorScore() {
+        Vendor vendor = new Vendor();
+        setVendorScore(24);
+
+        Assertions.assertEquals(24, getVendorScore());
     }
 
     @Test
-    void setVendorScore() {
+    void setTestVendorScore() {
+        Vendor vendor = new Vendor();
+        setVendorScore(24);
+
+        Assertions.assertEquals(24, getVendorScore());
     }
 }

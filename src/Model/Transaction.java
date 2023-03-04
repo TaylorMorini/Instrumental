@@ -27,6 +27,12 @@ public class Transaction {
 
 
     }
+    public void setCustomerName(String name) {
+
+        this.customerName = name;
+
+
+    }
 
     /**
      * Sets the price for the instrument for the transaction
