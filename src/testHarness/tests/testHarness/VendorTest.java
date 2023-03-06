@@ -1,4 +1,4 @@
-package testpackage;
+package testHarness;
 
 import Model.Vendor;
 import org.junit.jupiter.api.Assertions;

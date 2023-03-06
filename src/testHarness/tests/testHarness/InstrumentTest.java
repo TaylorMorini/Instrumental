@@ -1,4 +1,4 @@
-package testpackage;
+package testHarness;
 
 import Model.Instrument;
 import org.junit.jupiter.api.Assertions;

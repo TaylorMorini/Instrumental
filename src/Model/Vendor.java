@@ -100,5 +100,10 @@ public class Vendor {
 
     }
 
+    public void calculateScore(double score)
+    {
+
+    }
+
 
 }

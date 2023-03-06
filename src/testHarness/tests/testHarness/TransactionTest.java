@@ -1,10 +1,8 @@
-package testpackage;
+package testHarness;
 
 import Model.Transaction;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TransactionTest extends Transaction {
 
