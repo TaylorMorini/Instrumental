@@ -60,4 +60,22 @@ class TransactionTest extends Transaction {
         Assertions.assertEquals("Pittsburgh", getAddress());
 
     }
+
+    @Test
+    void setTestSetTracking()
+    {
+        Transaction order = new TransactionTest();
+        setTracking("1234ABC");
+
+        Assertions.assertEquals("1234ABC", getTrackingNumber());
+    }
+
+    @Test
+    void setTestGetTracking()
+    {
+        Transaction order = new TransactionTest();
+        setTracking("1234ABC");
+
+        Assertions.assertEquals("1234ABC", getTrackingNumber());
+    }
 }

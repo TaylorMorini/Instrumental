@@ -28,4 +28,12 @@ public class transactionController {
 
         }
     }
+
+    class readTracking implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+
+        }
+    }
 }

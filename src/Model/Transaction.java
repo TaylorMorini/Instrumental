@@ -7,6 +7,8 @@ public class Transaction {
 
     private double totalPrice;
 
+    private String trackingNumber;
+
     /**
      * This is the default constructor for the transaction class.
      */
@@ -66,6 +68,16 @@ public class Transaction {
     {
         return this.customerAddress;
 
+    }
+
+    public void setTracking(String trackingNum)
+    {
+        this.trackingNumber = trackingNum;
+    }
+
+    public String getTrackingNumber()
+    {
+        return this.trackingNumber;
     }
 
 }
