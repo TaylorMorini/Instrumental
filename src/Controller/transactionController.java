@@ -4,6 +4,11 @@ import java.awt.event.*;
 
 
 public class transactionController {
+    private void printInformation(String name, String price, String address, String tracking)
+    {
+        System.out.println("Name: " + name + "\nAddress: " + address + "\nPrice: " + price + "\nTracking: " + tracking);
+
+    }
 
     class readName implements ActionListener {
 

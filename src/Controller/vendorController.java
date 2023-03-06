@@ -10,6 +10,12 @@ public void calculateReview()
 
 }
 
+    private void printInformation(String name, String address, String score)
+    {
+        System.out.println("Name: " + name + "\nAddress: " + address + "\nScore: " + score);
+
+    }
+
 class readName implements ActionListener {
 
     @Override
