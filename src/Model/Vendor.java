@@ -6,7 +6,7 @@ public class Vendor {
     private String vendorName;
     private String vendorPassword;
     private String vendorAddress;
-    private double vendorScore;
+  
 
     /**
      * This is the default constructor for the Model.Vendor class.
@@ -80,25 +80,8 @@ public class Vendor {
 
     }
 
-    /**
-     * returns vendor score for review purposes
-     * @return venor score number
-     */
-    public double getVendorScore()
-    {
-        return this.vendorScore;
-
-    }
-
-    /**
-     * sets vendor score for changing reviews
-     * @param score sets vendor score
-     */
-    public void setVendorScore(double score)
-    {
-        this.vendorScore = score;
-
-    }
+  
+    
 
 
 }

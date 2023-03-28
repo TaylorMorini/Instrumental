@@ -2,15 +2,14 @@ package Model;
 
 import java.util.Date;
 
-public class VendorRating {
-    private String vendorName;
+public class VendorRating extends Vendor {
+ 
+    private Vendor vendorA;
     private double numberRating;
     private Date reviewDate;
     public double averagedReview;
 
-    public String getVendorName() {
-        return vendorName;
-    }
+   
     public Date getReviewDate() {
         return reviewDate;
     }
@@ -23,14 +22,17 @@ public class VendorRating {
     public void setNumberRating(double numberRating) {
         this.numberRating = numberRating;
     }
-    public void setVendorName(String vendorName) {
-        this.vendorName = vendorName;
-    }
+   
 
     public double getAveragedReview() {
         return numberRating;
     }
     public void setAveragedReview(double averagedReview) {
         this.averagedReview = averagedReview;
+    }
+
+    public VendorRating(Vendor vendorA) {
+        super();
+        this.vendorA = vendorA;
     }
 }
