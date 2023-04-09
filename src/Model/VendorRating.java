@@ -1,8 +1,10 @@
 package Model;
 
 import java.util.Date;
+import java.io.*;
+import java.sql.*;
 
-public class VendorRating extends Vendor {
+public class VendorRating {
  
     private Vendor vendorA;
     private double numberRating;
@@ -34,5 +36,13 @@ public class VendorRating extends Vendor {
     public VendorRating(Vendor vendorA) {
         super();
         this.vendorA = vendorA;
+    }
+
+
+    public double average()
+    {
+        double i = 0;
+
+        return i;
     }
 }
